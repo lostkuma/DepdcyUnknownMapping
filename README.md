@@ -7,9 +7,7 @@ Glove pre-train embedding download (Twitter 27B): https://nlp.stanford.edu/proje
 
 Stanford coreNLP download (3.9.2): https://stanfordnlp.github.io/CoreNLP/history.html
 
-A Google drive folder containing all code, files, and source data: https://drive.google.com/open?id=1aC5iRMfFYfrxMC2MxqPVFVIyXCuGgc9T
-
-	<<Google drive description>>
+	<<File Description>>
 
 	• Dataset – the dataset folder, Treebank of learner English (Berzak et al., 2016)
 		o raw.data.process.ipynb – jupyter notebook file for processing raw data
