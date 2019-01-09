@@ -2,43 +2,48 @@
 2018 Fall BME 595 Deep Learning Project
 An exploration on mapping unkonwn tokens using known contexts based on word embedding. 
 
+
 Glove pre-train embedding download (Twitter 27B): https://nlp.stanford.edu/projects/glove/ 
 
 Stanford coreNLP download (3.9.2): https://stanfordnlp.github.io/CoreNLP/history.html
 
 A Google drive folder containing all code, files, and source data: https://drive.google.com/open?id=1aC5iRMfFYfrxMC2MxqPVFVIyXCuGgc9T
 
+
 Google drive description
 
-• Dataset – the dataset folder, Treebank of learner English (Berzak et al., 2016)
-	o raw.data.process.ipynb – jupyter notebook file for processing raw data
-	o there are other source code files but they were not used in this project
-	o original.spelling.tags.txt, correct.sentence.txt – the processed text files used in this project
-	
-• train.ipynb – jupyter notebeook file for training the three models
+	• Dataset – the dataset folder, Treebank of learner English (Berzak et al., 2016)
 
-• test.ipynb – jupyter notebook file for testing the best model
+		o raw.data.process.ipynb – jupyter notebook file for processing raw data
 
-• models.py – containing a skip-gram model, CBOW model, and an NN model
+		o there are other source code files but they were not used in this project
 
-• load_glove.py – loading the raw Glove 27B 100d pre-trained model
+		o original.spelling.tags.txt, correct.sentence.txt – the processed text files used in this project
 
-• dep_parsing.py – using Stanford coreNLP for dependency parsing and tokenization
+	• train.ipynb – jupyter notebeook file for training the three models
 
-• tokenized.spelling.txt – tokenized test set
+	• test.ipynb – jupyter notebook file for testing the best model
 
-• tokenized.corrected.txt – tokenized training set
+	• models.py – containing a skip-gram model, CBOW model, and an NN model
 
-• dependencies.spelling.txt – all dependencies in the test set for the sentences
+	• load_glove.py – loading the raw Glove 27B 100d pre-trained model
 
-• dependencies.correced.txt – all dependencies in the training set for the sentences
+	• dep_parsing.py – using Stanford coreNLP for dependency parsing and tokenization
 
-• there are other files which I planned on using but ended up not using them in the folder
+	• tokenized.spelling.txt – tokenized test set
 
-• nn.softmax.best.model – model1 trained in this project
+	• tokenized.corrected.txt – tokenized training set
 
-• nn.tanh.best.model – model2 trained in this project
+	• dependencies.spelling.txt – all dependencies in the test set for the sentences
 
-• nn.nosoftmax.best.model – model3 trained in this project
+	• dependencies.correced.txt – all dependencies in the training set for the sentences
 
-• Slides – the presentation slides for the project
+	• there are other files which I planned on using but ended up not using them in the folder
+
+	• nn.softmax.best.model – model1 trained in this project
+
+	• nn.tanh.best.model – model2 trained in this project
+
+	• nn.nosoftmax.best.model – model3 trained in this project
+
+	• Slides – the presentation slides for the project
