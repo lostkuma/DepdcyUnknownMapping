@@ -7,9 +7,11 @@ Glove pre-train embedding download (Twitter 27B): https://nlp.stanford.edu/proje
 
 Stanford coreNLP download (3.9.2): https://stanfordnlp.github.io/CoreNLP/history.html
 
+A Google drive folder containing all files: https://drive.google.com/drive/folders/1aC5iRMfFYfrxMC2MxqPVFVIyXCuGgc9T 
+
 	<<File Description>>
 
-	• Dataset – the dataset folder, Treebank of learner English (Berzak et al., 2016)
+	• Dataset (in Google drive) – the dataset folder, Treebank of learner English (Berzak et al., 2016)
 		o raw.data.process.ipynb – jupyter notebook file for processing raw data
 		o there are other source code files but they were not used in this project
 		o original.spelling.tags.txt, correct.sentence.txt – the processed text files used in this project
@@ -22,7 +24,7 @@ Stanford coreNLP download (3.9.2): https://stanfordnlp.github.io/CoreNLP/history
 	• tokenized.spelling.txt – tokenized test set
 	• tokenized.corrected.txt – tokenized training set
 	• dependencies.spelling.txt – all dependencies in the test set for the sentences
-	• dependencies.correced.txt – all dependencies in the training set for the sentences
+	• dependencies.correced.txt (Google drive) – all dependencies in the training set for the sentences
 	• there are other files which I planned on using but ended up not using them in the folder
 	• nn.softmax.best.model – model1 trained in this project
 	• nn.tanh.best.model – model2 trained in this project
